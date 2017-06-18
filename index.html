@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>美甲</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/mui.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style/public.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style/ind-list.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style/foot.css"/>
+</head>
+<body>
+    <header class="mui-bar mui-bar-nav">
+    	<div class="logo"><a href="#"></a></div>
+        <div class="sea">
+        	<input type="text" name="text" id="text" placeholder="输入您的宝贝" />
+        	<input type="submit" id="sub" value="" />
+        </div>
+        <ul id="select-text">
+        	
+        </ul>
+        <div class="fenlei">
+        	<a href="fenlei/index.html#refreshContainer">分类</a>
+        </div>
+    </header>
+    <div class="mui-content">
+    	<!--下拉刷新容器-->
+		<div id="refreshContainer" class="mui-content mui-scroll-wrapper">
+		  	<div class="mui-scroll">
+			    <!--数据列表-->
+				<div id="slider" class="mui-slider" >
+				  <div class="mui-slider-group mui-slider-loop">
+				    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				    <div class="mui-slider-item mui-slider-item-duplicate">
+				      <a href="#">
+				        <img src="images/5.jpg">
+				      </a>
+				    </div>
+				    <!-- 第一张 -->
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/1.jpg">
+				      </a>
+				    </div>
+				    <!-- 第二张 -->
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/2.jpg">
+				      </a>
+				    </div>
+				    <!-- 第三张 -->
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/3.jpg">
+				      </a>
+				    </div>
+				    <!-- 第四张 -->
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/4.jpg">
+				      </a>
+				    </div>
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/5.jpg">
+				      </a>
+				    </div>
+				    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				    <div class="mui-slider-item mui-slider-item-duplicate">
+				      <a href="#">
+				        <img src="images/1.jpg">
+				      </a>
+				    </div>
+				  </div>
+				  <div class="mui-slider-indicator">
+				    <div class="mui-indicator mui-active"></div>
+				    <div class="mui-indicator"></div>
+				    <div class="mui-indicator"></div>
+				    <div class="mui-indicator"></div>
+				    <div class="mui-indicator"></div>
+				  </div>
+				</div>
+				<!--首页功能区-->
+				<ul class="ind-nav">
+					<li>
+						<a href="fenlei/index.html">
+							<img src="images/fenlei1.png"/>
+							<span>分类</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/xiazai-0605.png"/>
+							<span>立减5元</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/gouwuche.png"/>
+							<span>购物车</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/wodedangdang-h5.png"/>
+							<span>个人信息</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/haoshubang.png"/>
+							<span>热卖榜</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/tognshubang-0604.png"/>
+							<span>促销磅</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/9.9.png"/>
+							<span>优惠商品</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/dianzihsu.png"/>
+							<span>更多商品</span>
+						</a>
+					</li>
+				</ul>
+				<!--首页秒杀区-->
+				<section class="ind-min">
+					<div class="ind-min-tit">秒购</div>
+					<ul class="ind-min-list">
+						<li>
+							<a href="goodslist/goodslist.html#refreshContainer">
+								<img src="images/m1.jpg"/>
+								<p>￥1:00</p>
+							</a>
+						</li>
+						<li><a href="#"><img src="images/m2.jpg"/><p>￥1:00</p></a></li>
+						<li><a href="#"><img src="images/m3.jpg"/><p>￥1:00</p></a></li>
+						<li><a href="#"><img src="images/m4.jpg"/><p>￥1:00</p></a></li>
+						<li><a href="#"><img src="images/m5.jpg"/><p>￥1:00</p></a></li>
+						<li><a href="#"><img src="images/m6.jpg"/><p>￥1:00</p></a></li>
+					</ul>
+				</section>
+				<!--楼间推荐区-->
+				<section id="slider" class="mui-slider mui-slider2" >
+				  <div class="mui-slider-group mui-slider-loop">
+				    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				    <div class="mui-slider-item mui-slider-item-duplicate">
+				      <a href="#">
+				        <img src="images/31.jpg">
+				      </a>
+				    </div>
+				    <!-- 第一张 -->
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/3.jpg">
+				      </a>
+				    </div>
+				    <!-- 第二张 -->
+				    <div class="mui-slider-item">
+				      <a href="#">
+				        <img src="images/31.jpg">
+				      </a>
+				    </div>
+				    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				    <div class="mui-slider-item mui-slider-item-duplicate">
+				      <a href="#">
+				        <img src="images/3.jpg">
+				      </a>
+				    </div>
+				  </div>
+				  <div class="mui-slider-indicator">
+				    <div class="mui-indicator mui-active"></div>
+				    <div class="mui-indicator"></div>
+				  </div>
+				</section>
+				<!--floor-->
+				<section class="floor">
+					<div class="f-title">
+						<a class="f-tit" href="#">促销产品</a>
+						<a class="f-more" href="#">更多</a>
+					</div>
+					<dl>
+						<dt><a href="#"><img src="images/f1.jpg"/></a></dt>
+						<dd><a href="#"><img src="images/f2.jpg"/></a></dd>
+						<dd><a href="#"><img src="images/f3.jpg"/></a></dd>
+					</dl>
+				</section>
+				<section class="floor">
+					<div class="f-title">
+						<a class="f-tit" href="#">优惠商品</a>
+						<a class="f-more" href="#">更多</a>
+					</div>
+					<dl>
+						<dt><a href="#"><img src="images/f21.jpg"/></a></dt>
+						<dd><a href="#"><img src="images/f22.jpg"/></a></dd>
+						<dd><a href="#"><img src="images/f23.jpg"/></a></dd>
+					</dl>
+				</section>
+				<section class="floor">
+					<div class="f-title">
+						<a class="f-tit" href="#">热卖商品</a>
+						<a class="f-more" href="#">更多</a>
+					</div>
+					<dl>
+						<dt><a href="#"><img src="images/f31.jpg"/></a></dt>
+						<dd><a href="#"><img src="images/f32.jpg"/></a></dd>
+						<dd><a href="#"><img src="images/f33.jpg"/></a></dd>
+					</dl>
+				</section>
+				<section class="floor">
+					<div class="f-title">
+						<a class="f-tit" href="#">最新商品</a>
+						<a class="f-more" href="#">更多</a>
+					</div>
+					<dl>
+						<dt><a href="#"><img src="images/f41.jpg"/></a></dt>
+						<dd><a href="#"><img src="images/f42.jpg"/></a></dd>
+						<dd><a href="#"><img src="images/f43.jpg"/></a></dd>
+					</dl>
+				</section>
+				<section class="fix-r"><img src="images/go-top.png"/></section>
+    		</div>
+    	</div>
+	</div>
+    <nav class="mui-bar mui-bar-tab">
+        <footer>
+	    	<div class="footer-top clear">
+	    		<a class="login l" href="#">登录</a>
+	    		<a class="reg l" href="#">注册</a>
+	    		<a class="top r" href="#">TOP</a>
+	    	</div>
+	    	<nav class="f-nav">
+	    		<a href="#">提建议</a>
+	            <a href="#" class="red" >触屏版</a>
+	            <a href="#">电脑版</a>
+	            <a href="#">帮助</a>
+	    	</nav>
+	    	<div class="f-p">
+	    		<p>Copyright 京都 2015 meijiashangcheng.com</p>
+	    	</div>
+	    </footer>
+    </nav>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/mui.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/js/search.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/js/index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

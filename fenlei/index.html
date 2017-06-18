@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>分类</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    
+    <link rel="stylesheet" type="text/css" href="fenlei.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style/foot.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/mui.css"/>
+</head>
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">商品分类</h1>
+        <a class="hd-r" href="#"></a>
+    </header>
+    <div class="mui-content">
+    	<!--下拉刷新容器-->
+		<div id="refreshContainer" class="mui-content mui-scroll-wrapper">
+		  <div class="mui-scroll">
+		    <!--数据列表-->
+	        <ul class="mui-table-view"> 
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">指甲油</a>
+		            <div class="mui-collapse-content">
+		                <p>指甲油1</p><p>指甲油2</p><p>指甲油3</p><p>指甲油4</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">化妆品</a>
+		            <div class="mui-collapse-content">
+		                <p>化妆品</p><p>化妆品</p><p>化妆品</p><p>化妆品</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">香水</a>
+		            <div class="mui-collapse-content">
+		                <p>香水</p><p>香水</p><p>香水</p><p>香水</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">花露水</a>
+		            <div class="mui-collapse-content">
+		                <p>花露水</p><p>花露水</p><p>花露水</p><p>花露水</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">美甲</a>
+		            <div class="mui-collapse-content">
+		                <p>美甲</p><p>美甲</p><p>美甲</p><p>美甲</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">护肤品</a>
+		            <div class="mui-collapse-content">
+		                <p>护肤品</p><p>护肤品</p><p>护肤品</p><p>护肤品</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">美发</a>
+		            <div class="mui-collapse-content">
+		                <p>美发</p><p>美发</p><p>美发</p><p>美发</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">护理</a>
+		            <div class="mui-collapse-content">
+		                <p>护肤品</p><p>护肤品</p><p>护肤品</p><p>护理</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">养颜</a>
+		            <div class="mui-collapse-content">
+		                <p>护肤品</p><p>护肤品</p><p>护肤品</p><p>护肤品</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">美瞳</a>
+		            <div class="mui-collapse-content">
+		                <p>美瞳</p><p>美瞳</p><p>美瞳</p><p>美瞳</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">眼线笔</a>
+		            <div class="mui-collapse-content">
+		                <p>眼线笔</p><p>眼线笔</p><p>眼线笔</p><p>眼线笔</p>
+		            </div>
+		        </li>
+		        <li class="mui-table-view-cell mui-collapse">
+		            <a class="mui-navigate-right" href="#">睫毛膏</a>
+		            <div class="mui-collapse-content">
+		                <p>睫毛膏</p><p>睫毛膏</p><p>睫毛膏</p><p>睫毛膏</p>
+		            </div>
+		        </li>
+		    </ul>
+		   </div>
+		</div>
+    </div>
+    <nav class="mui-bar mui-bar-tab">
+        <footer>
+	    	<div class="footer-top clear">
+	    		<a class="login l" href="#">登录</a>
+	    		<a class="reg l" href="#">注册</a>
+	    		<a class="top r" href="#">TOP</a>
+	    	</div>
+	    	<nav class="f-nav">
+	    		<a href="#">提建议</a>
+	            <a href="#" class="red" >触屏版</a>
+	            <a href="#">电脑版</a>
+	            <a href="#">帮助</a>
+	    	</nav>
+	    	<div class="f-p">
+	    		<p>Copyright 京都 2015 meijiashangcheng.com</p>
+	    	</div>
+	    </footer>
+    </nav>
+    <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    	mui.init({
+		  pullRefresh : {
+		    container:"#refreshContainer",//下拉刷新容器标识，querySelector能定位的css选择器均可，比如：id、.class等
+		    down : {
+		      height:50,//可选,默认50.触发下拉刷新拖动距离,
+		      auto: true,//可选,默认false.自动下拉刷新一次
+		      contentdown : "下拉可以刷新",//可选，在下拉可刷新状态时，下拉刷新控件上显示的标题内容
+		      contentover : "释放立即刷新",//可选，在释放可刷新状态时，下拉刷新控件上显示的标题内容
+		      contentrefresh : "正在刷新...",//可选，正在刷新状态时，下拉刷新控件上显示的标题内容
+		      callback :function(){} //必选，刷新函数，根据具体业务来编写，比如通过ajax从服务器获取新数据；
+		    }
+		  }
+		});
+    </script>
+</body>
+</html>
+

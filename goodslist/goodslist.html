@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/style/public.css"/>
+		<link rel="stylesheet" type="text/css" href="goodslist.css"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <div class="mui-input-row mui-search">
+			    <input type="search" class="mui-input-clear" placeholder="指甲油套装">
+			</div>
+			<input type="submit" class="sub" value="搜索" />
+		</header>
+		<div class="mui-content">
+			<!--下拉刷新容器-->
+			<div id="refreshContainer" class="mui-content mui-scroll-wrapper">
+			  	<div class="mui-scroll">
+		    		<!--数据列表-->
+				    <ul class="gmuiul clear">
+				    	<li><a href="javascript:;">指甲油货到付款ccccccccc</a></li>
+				    	<li><a href="javascript:;">渐变指甲油</a></li>
+				    	<li><a href="javascript:;">opi指甲油</a></li>
+				    	<li><a href="javascript:;">美甲套装</a></li>
+				    	<li><a href="javascript:;">指甲油 可刨</a></li>
+				    	<li><a href="javascript:;">指甲油工具</a></li>
+				    </ul>
+				    <ul class="gmuiulon clear">
+				    	<li class="on"><a href="javascript:;">默认</a></li>
+				    	<li><a href="javascript:;">销量</a></li>
+				    	<li><a href="javascript:;">评分</a></li>
+				    	<li><a href="javascript:;">价格</a></li>
+				    	<li><a href="javascript:;">最新</a></li>
+				    </ul>
+				    <ul class="gmuiullist">
+				    </ul>
+		  		</div>
+			</div>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="goodslist.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

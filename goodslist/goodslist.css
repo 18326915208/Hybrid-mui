@@ -1,0 +1,105 @@
+.mui-bar.mui-bar-nav .mui-icon{
+	color:#333;
+}
+.mui-bar.mui-bar-nav .mui-input-row.mui-search{
+	width:250px;
+	position: absolute;
+	left:60px;
+	top:2px;
+}
+.mui-bar.mui-bar-nav .sub{
+	position: absolute;
+	top: 0;
+	right: 5px;
+	width:50px;
+	height:32px;
+	font: 14px/32px "微软雅黑";
+	color:#646464;
+	border: none;
+	background: none;
+}
+.mui-content{
+	
+}
+.mui-content .gmuiul{
+	padding:9px 10px 5px 8px;
+	overflow: hidden;
+	background:#eee;
+}
+.mui-content .gmuiul li{
+	float: left;
+	width:31.8%;
+	height:30px;
+	background:#fff;
+	text-align: center;
+	font:14px/30px "微软雅黑";
+	box-sizing: border-box;
+	margin:0 5px 5px 0;
+}
+.mui-content .gmuiul li a{
+	padding: 0 6px;
+	display: block;
+	overflow: hidden;
+	text-overflow:ellipsis ;
+	white-space: nowrap;
+}
+.mui-content .gmuiulon{
+	background:#fff;
+	overflow: hidden;
+}
+.mui-content .gmuiulon li{
+	float: left;
+    width: 20%;
+    height: 38px;
+    font: 14px/38px "微软雅黑";
+    text-align: center;
+}
+.mui-content .gmuiulon li.on a{
+	color:#ff465a;
+}
+.mui-content .gmuiulon li.on{
+	 border-bottom: 2px solid #ff465a;
+}
+.mui-content .gmuiullist{
+	margin:10px 0;
+	overflow: hidden;
+	background:#eee;
+}
+.mui-content .gmuiullist li{
+	width: 50%;
+	float: left;
+	height: 215px;
+	text-align: center;
+}
+.mui-content .gmuiullist li a{
+	display: block;
+	border: 1px solid #e6e6e6;
+    padding: 3px;
+    background: #fff;
+    margin: 0 5px 10px 5px;
+}
+.mui-content .gmuiullist li a .aimg{
+	width: 137px;
+	height:137px;
+}
+.mui-content .gmuiullist li a .name{
+	height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    color: #4d525d;
+    text-align: left;
+}
+.mui-content .gmuiullist li a .price{
+	color: #f00;
+	text-align: left;
+	line-height:24px;
+}
+.mui-content .gmuiullist li a .price .p_r{
+	float: right;
+    color: #989da2;
+    background: url(img/gwc.png) center no-repeat;
+    background-size: 80%;
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+}

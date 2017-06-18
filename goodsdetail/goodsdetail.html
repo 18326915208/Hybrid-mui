@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>产品详情</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="../css/mui.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style/public.css"/>
+    <link rel="stylesheet" type="text/css" href="goodsdetail.css"/>
+</head>
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">产品详情</h1>
+    </header>
+    <div class="mui-content">
+        <div id="slider" class="mui-slider" >
+          <div class="mui-slider-group mui-slider-loop">
+            <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+            <div class="mui-slider-item mui-slider-item-duplicate">
+              <a href="#">
+                <img src="img/1100604422-1_h.jpg">
+              </a>
+            </div>
+            <!-- 第一张 -->
+            <div class="mui-slider-item">
+              <a href="#">
+                <img src="img/Z.jpg">
+              </a>
+            </div>
+            <!-- 第二张 -->
+            <div class="mui-slider-item">
+              <a href="#">
+                <img src="img/1100604422-1_h.jpg">
+              </a>
+            </div>
+            <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+            <div class="mui-slider-item mui-slider-item-duplicate">
+              <a href="#">
+                <img src="img/Z.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="mui-slider-indicator">
+            <div class="mui-indicator mui-active"></div>
+            <div class="mui-indicator"></div>
+          </div>
+        </div>
+        <div class="det-price">
+        	<div>
+        		<p class="del-pl l">￥69:00</p>
+        		<p class="del-pr r">收藏</p>
+        	</div>
+        	<div class="del-p">Sweet City/都市甜心油性指甲油美甲套装 魅影OL裸色系列7+1礼盒 TC03</div>
+        </div>
+        <div class="promotion">
+			<a href="javascript:void(0)" class="arrow_con">
+				<div class="label">
+					<span class="purple">店铺满额减</span>
+				</div>
+				<div class="info">
+					<p>满￥99.00减￥20.00,满￥199.00减￥60.00</p>
+				</div>
+			</a>
+		</div>
+		<!--产品简介-->
+		<div class="chanpin">
+			<h3>产品简介</h3>
+			<div class="cp-con">
+				<p><span>产	品：</span>姗蔻无毒指甲油包邮环保裸色指甲油儿童孕妇持久无毒指甲油快干</p>
+				<p><span>净含量：</span>7.5</p>
+				<p><span>上市时间：</span>2013-06-18</p>
+				<p><span>颜色分类：</span>颜色分类: 湖水蓝 裸粉色 透明亮片 玫红色 珠光红</p>
+				<p><span>肤	质：</span>任何肤质</p>
+				<p><span>产	地：</span>中国</p>
+			</div>
+		</div>
+		<!--数量-->
+		<div class="num">
+			<span class="shuliang">数  量：</span>
+			<div class="mui-numbox">
+			  <!-- "-"按钮，点击可减小当前数值 -->
+			  <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+			  <input class="mui-numbox-input" type="number" />
+			  <!-- "+"按钮，点击可增大当前数值 -->
+			  <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+			</div>
+		</div>
+		<!--商品评论-->
+		<div class="comment">
+			<div class="cmt-t">
+				<span class="l">商品评论(254)</span>
+				<span class="r">好评率98.4%</span>
+			</div>
+			<div class="cmt-c">
+				<span>Johnson丶Lee</span>
+				<div class="cmt-p">卖家服务态度很好，随商品也有附赠的小赠品，感觉买这家的商品很舒服。快递也非常快，接到东西的时候还感到有些意外：怎么这么快？ <div class="date">2015-09-16</div>
+				</div>
+			</div>
+		</div>
+		<!--店铺-->
+		<div class="shop">
+			<div class="shop-hd">
+				<a class="logo l" href="../index.html"><img src="img/logo1.jpg"/></a>
+				<div class="name l">Sweet city美甲官方旗舰店</div>
+			</div>
+			<ul class="evaluation">
+				<li>
+					<p>描述相符</p>
+					<em>4.9</em>
+					<i class="low">低</i>
+				</li>
+				<li>
+					<p>服务态度</p>
+					<em>4.9</em>
+					<i class="low">低</i>
+				</li>
+				<li>
+					<p>发货速度</p>
+					<em>4.8</em>
+					<i class="low">低</i>
+				</li>
+				<li>
+					<p>关注人数</p>
+					<em>11980</em>
+				</li>
+			</ul>
+			<div class="shop_btn">
+				<span><a id="collect_shop">关注店铺</a></span>
+				<span><a href="">进店逛逛</a></span>
+			</div>
+		</div>
+		<div class="like">
+			
+		</div>
+    </div>
+    <script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    	mui.init();
+    	//获得slider插件对象
+		var gallery = mui('.mui-slider');
+		gallery.slider({
+		  interval:3000//自动轮播周期，若为0则不自动播放，默认为0；
+		});
+		
+//		mui(Selector).numbox().setValue(5)
+    </script>
+</body>
+</html>
